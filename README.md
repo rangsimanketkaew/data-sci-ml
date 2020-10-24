@@ -4,7 +4,8 @@ Tips and Tricks for Machine Learning (+Deep Learning)
 ## Install packages
 
 - `conda create -n tf-gpu python=3.7.9` && `conda activate tf-gpu`
-- `conda install tensorflow-gpu pandas scikit-learn rdkit`
+- `conda install tensorflow-gpu pandas scikit-learn`
+- `conda install -c rdkit rdkit`
 
 ## Check if TF can see GPU
 
