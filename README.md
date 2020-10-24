@@ -1,6 +1,14 @@
 # Machine Learning
 Tips and Tricks for Machine Learning (+Deep Learning)
 
+## Check if TF can see GPU
+
+```
+from tensorflow.python.client import device_lib
+print(device_lib.list_local_devices())
+```
+
+
 ## Dropout & Batch Normalization
 
 - Dropout:
