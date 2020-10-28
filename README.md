@@ -1,11 +1,16 @@
 # Machine Learning
 Tips and Tricks for Machine Learning (+Deep Learning)
 
-## Install packages
+## Install packages for ML
 
 - `conda create -n tf-gpu python=3.7.9` && `conda activate tf-gpu`
 - `conda install tensorflow-gpu pandas scikit-learn`
+
+
+## Packages for chemistry
 - `conda install -c rdkit rdkit`
+- `conda install -c openbabel openbabel` # v. 2.4.1 with pybel
+- `conda install -c conda-forge openbabel` # v. 3.x.x but no pybel
 
 ## Check if TF can see GPU
 
