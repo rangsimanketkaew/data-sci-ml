@@ -1,5 +1,4 @@
-# Machine Learning
-Tips and Tricks for Machine Learning (+Deep Learning)
+# Machine Learning and Deep Learning stuff
 
 ## Install packages for ML
 
